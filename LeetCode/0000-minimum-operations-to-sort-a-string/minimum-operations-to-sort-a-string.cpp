@@ -9,10 +9,7 @@ Author: Krishnadev_sharma
 Synced by CodeCrus: https://github.com/Krishnadev-sharma/Daily_LeetCode_PODT
 */
 
-class Solution {
-public:
-    int minOperations(string s) {
-        if(is_sorted(s.begin(),s.end())) return 0;
+if(is_sorted(s.begin(),s.end())) return 0;
         int n = s.size();
         if(n == 2) return -1;
         
@@ -23,6 +20,8 @@ public:
             return 1;
         }
         return 2;
+        if(s[0] == max && s[n-1] == max){
+            return 3;
+        }
     }
-        if(s[])
 };
