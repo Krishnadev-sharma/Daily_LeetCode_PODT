@@ -145,10 +145,8 @@ Input sequence
 
 #### 1. State Setup
 ```c++
-class Solution {
-public:
-    int minOperations(string s) {
-        if(is_sorted(s.begin(),s.end())) return 0;
+if(is_sorted(s.begin(),s.end())) return 0;
+        int n = s.size();
 ```
 Initializes variables and structures necessary for tracking the solution.
 
@@ -156,11 +154,11 @@ Initializes variables and structures necessary for tracking the solution.
 
 #### 2. Sequential Processing
 ```c++
-class Solution {
-public:
-    int minOperations(string s) {
-        if(is_sorted(s.begin(),s.end())) return 0;
-        i
+if(is_sorted(s.begin(),s.end())) return 0;
+        int n = s.size();
+        if(n == 2) return -1;
+        
+        cha
 ```
 Loops over inputs, executing conditional checks and updating tracking values.
 
