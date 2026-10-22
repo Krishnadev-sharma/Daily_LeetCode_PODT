@@ -24,4 +24,5 @@ public:
         }
         return 2;
     }
+        if(s[])
 };
