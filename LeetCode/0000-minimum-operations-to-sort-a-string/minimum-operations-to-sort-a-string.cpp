@@ -19,9 +19,9 @@ if(is_sorted(s.begin(),s.end())) return 0;
         if(s[0] == min || s[n-1] == max){
             return 1;
         }
-        return 2;
-        if(s[0] == max && s[n-1] == max){
+        if(s[0] == max && s[n-1] == min){
             return 3;
         }
+        return 2;
     }
 };
